@@ -6,7 +6,9 @@
 </h1>
 <br>
 
-{% include social.html %}
+{% if site.social_links %}
+  {% include social.html %}
+{% endif %}
 
 {% include navigation.html %}
 
